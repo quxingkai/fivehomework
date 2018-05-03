@@ -1,0 +1,38 @@
+@import "_config.scss";
+@import "_mixin.scss";
+.list{
+    width:100%;
+    dl{
+        flex:1;
+        dt,dd{
+            width:100%;
+            text-align: center;
+        }
+        dt{
+            height:pxTorem(300px);
+            img{
+                display: block;
+                margin:0 auto;
+                width:90%;
+                height:pxTorem(300px);
+            }
+        }
+        dd{
+            p{
+                font-size:pxTorem(12px);
+                color:#333;
+            }
+            .price{
+                .newprice{
+                    font-size:pxTorem(14px);
+                    color:#FB3838;
+                }
+                .oldprice{
+                    font-size:pxTorem(12px);
+                    color:#999;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}

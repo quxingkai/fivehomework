@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*字体大小*/
+/*灰色字体颜色*/
+/*白色字体*/
+/*黑色字体*/
+/*按钮灰色边框*/
+/*蓝色边框颜色*/
+/*蓝色字体颜色*/
+/*group 底部边框颜色*/
+/*header背景*/
+/*搜索框border颜色*/
+/*banner buttle*/
+/*orange line颜色*/
+/*line bottom颜色*/
+/* 书背景*/
+/* 书边框颜色 */
+/*书的阴影*/
+/*绿色标签颜色*/
+/*限免tag背景*/
+/*按钮背景颜色*/
+/*按钮border颜色*/
+/*标签背景*/
+/*标签背景色*/
+/*详情界面*/
+/* 阅读界面 */
+/*阅读界面标题*/
+/*超过几行显示省略号*/
+/*背景*/
+/* 滚动 */
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+.header-tpl {
+  width: 100%;
+  height: 1.33333rem;
+  text-align: center;
+  font-size: 0.42667rem;
+  color: #E03A52;
+  line-height: 1.33333rem;
+}
+
+.nav {
+  width: 100%;
+  height: 1.33333rem;
+  overflow: hidden;
+}
+
+.nav ul {
+  align-items: center;
+  height: 100%;
+  width: 155%;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 0.26667rem;
+  text-align: center;
+  position: relative;
+}
+
+.nav ul li.bg {
+  color: #E14B66;
+}
+
+.nav ul li.bg:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.05333rem;
+  background: #E14B66;
+  left: 0;
+  bottom: -0.13333rem;
+}
+
+.footer {
+  width: 100%;
+  height: 1.44rem;
+  align-items: center;
+  display: flex;
+}
+
+.footer dl {
+  flex: 1;
+}
+
+.footer dl.bg dt i.icon, .footer dl.bg dd {
+  color: #E14B66;
+}
+
+.footer dl dt, .footer dl dd {
+  width: 100%;
+  text-align: center;
+}
+
+.footer dl dt i.icon {
+  font-size: 0.58667rem;
+  color: #7C7C7F;
+}
+
+.footer dl dd {
+  font-size: 0.42667rem;
+}
+
+.tit {
+  width: 100%;
+  height: 1.22667rem;
+  padding: 0 5%;
+  color: #606060;
+  font-size: 0.42667rem;
+  text-align: center;
+}
+
+.banlist {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.banlist dl {
+  flex: 1;
+  height: 4rem;
+}
+
+.banlist dl dt, .banlist dl dd {
+  width: 100%;
+  text-align: center;
+}
+
+.banlist dl dt {
+  height: 2.66667rem;
+}
+
+.banlist dl dt img {
+  width: 80%;
+}
+
+.banlist dl dd p {
+  font-size: 0.32rem;
+  color: #333;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banlist dl dd .price .newprice {
+  font-size: 0.37333rem;
+  color: #FB3838;
+}
+
+.banlist dl dd .price .oldprice {
+  font-size: 0.32rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.none {
+  display: none;
+}
+
+.scroll {
+  width: 100%;
+}
+
+.home {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner .swiper-slide {
+  display: flex;
+}
+
+.banner .swiper-slide dl {
+  flex: 1;
+  margin: 0 0.26667rem;
+}
+
+.banner .swiper-slide dl dt, .banner .swiper-slide dl dd {
+  width: 100%;
+  text-align: center;
+}
+
+.banner .swiper-slide dl dt img {
+  width: 90%;
+}
+
+.banner .swiper-slide dl dd {
+  color: #333;
+}
+
+.banner .swiper-slide dl dd .oldprice {
+  text-decoration: line-through;
+  color: #333;
+}
+
+.selected {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected dl {
+  width: 46%;
+  margin: 1%;
+}
+
+.selected dl dt, .selected dl dd {
+  text-align: center;
+}
+
+.selected dl dt img {
+  width: 100%;
+}
+
+.gun {
+  width: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}

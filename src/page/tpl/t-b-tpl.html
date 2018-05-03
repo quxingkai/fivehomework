@@ -1,0 +1,14 @@
+<script type="text/x-handlebars-template" id="tbtpl">
+    {{#each this}}
+    <dl data-id={{favicon_id}}>
+        <dt><img src="{{img}}" alt=""></dt>
+        <dd>
+            <p>{{main}}</p>
+            <div class="price">
+                <span class="newprice">{{price}}</span>
+                <span class="oldprice">{{oldprice}}</span>
+            </div>
+        </dd>
+    </dl>
+    {{/each}}
+</script>

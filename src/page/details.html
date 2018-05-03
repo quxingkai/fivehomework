@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/libs/flexible.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header-tpl"></header>
+        <div class="list">
+            <!-- <dl>
+                <dt><img src="../img/clothes1.png" alt=""></dt>
+                <dd>
+                    <p>知味观绿豆糕2盒</p>
+                    <div class="price">
+                        <span class="newprice">￥44.90</span>
+                        <span class="oldprice">￥70"</span>
+                    </div>
+                </dd>
+            </dl> -->
+        </div>
+    </div>
+    <script src="../js/require.js"></script>
+    <script>
+         require(['../js/main.js'],function(){
+             require(['details'],function(details){
+                details();
+             })
+         })
+    </script>
+    <script type="text/x-handlebars-template" id="details-tpl">
+        <dl>
+            <dt><img src="../{{img}}" alt=""></dt>
+            <dd>
+                <p>{{main}}</p>
+                <div class="price">
+                    <span class="newprice">{{price}}</span>
+                    <span class="oldprice">{{oldprice}}</span>
+                </div>
+            </dd>
+        </dl>
+    </script>
+</body>
+</html>

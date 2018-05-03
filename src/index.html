@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/libs/flexible.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+</head>
+<body>
+    <div class="wrap">
+         <header class="header-tpl">
+             全场包邮 低至5元
+         </header>
+         <section>
+             <div class="scroll">
+                 <div class="home">
+                    <nav class="nav">
+                        <ul>
+                            <li data-type="select" class="bg">推荐</li>
+                            <li data-type="clothes">女装</li>
+                            <li data-type="food">美食</li>
+                            <li data-type="">居家</li>
+                            <li data-type="">美妆个护</li>
+                            <li data-type="">男装</li>
+                            <li data-type="">内衣</li>
+                            <li data-type="">鞋包</li>
+                            <li data-type="">国际直邮</li>
+                            <li data-type="">大牌聚划算</li>
+                        </ul>
+                    </nav>
+                        <!-- banner图 -->
+                        <div class="swiper-container banner">
+                            <div class="swiper-wrapper ban">
+                            </div>
+                            <div class="swiper-pagination pagination"></div>
+                        </div>
+                        <!-- banner图 结束 -->
+                        <div class="tit">
+                            -精选单品-
+                        </div>
+                        <ul class="selected">
+
+                        </ul>
+                 </div>
+                 <div class="select none">分类</div>
+                 <div class="sell none">品牌售卖</div>
+                 <div class="free-shipping none">五元包邮</div>
+                 <div class="my none">我的</div>
+             </div>
+         </section>
+         <footer class="footer">
+              <dl class="bg">
+                  <dt><i class="icon iconfont icon-shouye"></i></dt>
+                  <dd>首页</dd>
+              </dl>
+              <dl>
+                <dt><i class="icon iconfont icon-fenlei"></i></dt>
+                <dd>分类</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-biaoqian"></i></dt>
+                <dd>品牌特卖</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-tian"></i></dt>
+                <dd>五元包邮</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-shouye"></i></dt>
+                <dd>我的</dd>
+            </dl>
+         </footer>
+    </div>
+    <script src="./js/require.js"></script>
+    <script>
+         require(['./js/main.js'],function(){
+             require(['index'])
+         })
+    </script>
+</body>
+</html>
